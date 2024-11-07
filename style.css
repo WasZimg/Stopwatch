@@ -1,0 +1,45 @@
+body {
+    font-size: 15pt;
+    background-color: hsla(235, 15%, 7%, 1);
+}
+h1 {
+  text-align: center;
+  color: mintcream;
+  text-family:"arial", sans-serif;
+}
+
+#container {
+  color: darkorange;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: hsla(360, 100%, 0%, 0.64);
+  padding: 30px;
+}
+#display {
+  color: floralwhite;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  margin-bottom: -50px;
+  margin-top: -25px;
+}
+#btns {
+  display: flex;
+  justify-self: center;
+  
+}
+#btns button {
+  color:white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(29, 100%, 52%, 1);
+  border: none;
+  margin: 10px;
+  font-size: 15px;
+  font-family: monospace;
+}
